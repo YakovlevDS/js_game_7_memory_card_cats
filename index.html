@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Card Game</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="memory-game-title">
+    <h1>Memory  Card  Game</h1>
+    <img src="img/main.png" alt="lotus" class="title-image">
+  </section>
+  
+  <section class="memory-game">
+    <div class="memory-card" data-framework="cat_1">
+      <img src="img/cat_1.png" alt="cat_1" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+    <div class="memory-card" data-framework="cat_3">
+      <img src="img/cat_3.png" alt="cat_3" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+     <div class="memory-card" data-framework="cat_3">
+      <img src="img/cat_3.png" alt="cat_3" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+     <div class="memory-card" data-framework="cat_4">
+      <img src="img/cat_4.png" alt="cat_4" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+     <div class="memory-card" data-framework="cat_1">
+      <img src="img/cat_1.png" alt="cat_1" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+     <div class="memory-card" data-framework="cat_6">
+      <img src="img/cat_6.png" alt="cat_6" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+     <div class="memory-card" data-framework="cat_2">
+      <img src="img/cat_2.png" alt="cat_2" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+     <div class="memory-card" data-framework="cat_6">
+      <img src="img/cat_6.png" alt="cat_6" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+     <div class="memory-card" data-framework="cat_5">
+      <img src="img/cat_5.png" alt="cat_5" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+     <div class="memory-card" data-framework="cat_4">
+      <img src="img/cat_4.png" alt="cat_4" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+     <div class="memory-card" data-framework="cat_2">
+      <img src="img/cat_2.png" alt="cat_2" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+     <div class="memory-card" data-framework="cat_5">
+      <img src="img/cat_5.png" alt="cat_5" class="font-face">
+      <img src="img/main.png" alt="lotus" class="back-face">
+    </div>
+    
+  </section>
+  
+  <section class="memory-game-menu">
+    <a href="">reset</a> 
+    <a data-fancybox data-src="#trueModal" data-modal="true" href="javascript:;" class="btn btn-primary"> <img src="img/main.png" class="menu-image" alt="main"></a>     
+    <audio src="music.mp3" autoplay="autoplay"></audio>
+    <button class="sound" onclick="soundClick()">music</button>
+  </section>
+  
+
+
+ <div style="display: none;max-width:600px;" id="trueModal">
+          <h2>Dear friend!What’s cracking? </h2>
+          <p>Success doesn't come to you…you go to it. Marva Collins</p>
+          <p>If anything is worth trying at all, it’s worth trying at least 10 times. Art Linkletter</p>
+          <p>Yesterday is but today's memory, tomorrow is today's dream. Kahlil Gibran</p>
+          <p>Live without regrets.</p>
+          <p>Dreams come true!</p>
+          <p><button data-fancybox-close class="btn">Close me</button></p>
+        </div>
+      </div>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
